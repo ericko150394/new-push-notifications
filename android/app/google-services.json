@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "713099054200",
+    "project_id": "flutter-projects-f503d",
+    "storage_bucket": "flutter-projects-f503d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713099054200:android:a8e61d6d5491e4a952f18d",
+        "android_client_info": {
+          "package_name": "com.ecarballo.push_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "713099054200-tutro934s7a1k7raeo47k9lrtr891ae4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCekkRCyH6pl6TFu7carf_IWAP4p8aNx-w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "713099054200-tutro934s7a1k7raeo47k9lrtr891ae4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "713099054200-7o0769iso50e310568vd4sti2dlcvje0.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.pushApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
