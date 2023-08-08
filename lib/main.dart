@@ -60,7 +60,7 @@ class _HandleNotificationInteractionsState extends State<HandleNotificationInter
       _handleMessage(initialMessage);
     }
 
-    // Also handle any interaction when the app is in the background via aa
+    // Also handle any interaction when the app is in the background via a
     // Stream listener
     FirebaseMessaging.onMessageOpenedApp.listen(_handleMessage);
   }
@@ -68,7 +68,7 @@ class _HandleNotificationInteractionsState extends State<HandleNotificationInter
   void _handleMessage(RemoteMessage message) {
     context.read<NotificationsBloc>().handleRemoteMessage(message);
 
-    final messageId = message.messageId?.replaceAll(':', '').replaceAll('%', 'a');
+    final messageId = message.messageId?.replaceAll(':', '').replaceAll('%', '');
     appRouter.push('/push-details/$messageId');
   }
 
