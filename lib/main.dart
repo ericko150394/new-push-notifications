@@ -60,7 +60,7 @@ class _HandleNotificationInteractionsState extends State<HandleNotificationInter
       _handleMessage(initialMessage);
     }
 
-    // Also handle any interaction when the app is in the background via a
+    // Also handle any interaction when the app is in the background via aa
     // Stream listener
     FirebaseMessaging.onMessageOpenedApp.listen(_handleMessage);
   }
